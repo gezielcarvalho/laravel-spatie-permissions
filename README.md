@@ -1,8 +1,10 @@
-# Container para Laravel
+# Demo application of Spatie Laravel library for ACL
 
-Container padrão pra executar as atividades de desenvolvimento do **sabre**.
+... based on
+https://github.com/drbyte/spatie-permissions-demo
 
 ## Procedimentos com docker 
+[the following procedures are under revision]
 
 ### Levantar container
 
