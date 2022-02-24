@@ -1,1 +1,4 @@
 .docker/dbdata
+html/public/js/app.js
+html/public/css/app.css
+html/public/mix-manifest.json
