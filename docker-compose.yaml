@@ -4,21 +4,25 @@ services:
 
   php:
     build: .
+    container_name: app
     ports: 
       - "8000:80"
     volumes: 
-      - ./www:/var/www/html
+      - .:/var/www/
 
   db:
     image: mysql:5.7
+    container_name: db
     restart: always
     volumes:
       - "./.docker/dbdata:/var/lib/mysql"
     environment: 
       MYSQL_ROOT_PASSWORD: A_1234567
+      MYSQL_DATABASE: sabre_data      
 
   phpmyadmin: 
     image: phpmyadmin
+    container_name: myadmin
     restart: always
     ports:
-      - 8080:80
+      - 8088:80
