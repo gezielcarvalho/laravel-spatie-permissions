@@ -28,5 +28,12 @@ https://spatie.be/docs/laravel-permission/v5/basic-usage/new-app
 php artisan make:migration change_role_in_users_table --table=users
 www_sp2\database\migrations\2022_02_24_093458_change_role_in_users_table.php
 
+php artisan permission:cache-reset
+
 Later
 https://github.com/drbyte/spatie-permissions-demo/
+
+
+https://github.com/spatie/laravel-permission/issues/385
+
+https://www.reddit.com/r/laravel/comments/iacdpj/spatie_laravel_permissions_where_does_it_store/g1mu8ec/

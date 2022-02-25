@@ -3,6 +3,10 @@
 ... based on
 https://github.com/drbyte/spatie-permissions-demo
 
+# Schema Diagram
+https://drawsql.app/templates/laravel-permission
+
+
 ## Procedimentos com docker 
 [the following procedures are under revision]
 
